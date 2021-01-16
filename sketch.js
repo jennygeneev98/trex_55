@@ -176,6 +176,7 @@ function spawnObstacles() {
 }
 
 function reset(){
+  // to reset the game
   gameState = PLAY;
   gameOver.visible = false;
   restart.visible = false;
